@@ -24,3 +24,5 @@ Browser should open with swagger documentation
 ## Refactor
 - Update nuget packages
 - Refactor 
+
+Next up - [Customize and improve your api documentation](01-api-documentation.md)
