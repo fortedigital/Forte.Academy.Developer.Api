@@ -19,4 +19,8 @@ In this session you will use the default api template in Visual Studio to create
 
 Browser should open with swagger documentation
 
-![Image of api doc](docs/first-api-doc.PNG)
+![Image of api doc](first-api-doc.PNG)
+
+## Refactor
+- Update nuget packages
+- Refactor 
