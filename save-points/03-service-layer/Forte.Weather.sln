@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forte.Weather.Api", "Forte.Weather.Api\Forte.Weather.Api.csproj", "{142E5193-B48A-4265-B97C-3C3FCF85ABAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forte.Weather.Services", "Forte.Weather.Services\Forte.Weather.Services.csproj", "{BB73984A-F325-4DFA-A28A-7BBD2A72A02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{142E5193-B48A-4265-B97C-3C3FCF85ABAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142E5193-B48A-4265-B97C-3C3FCF85ABAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142E5193-B48A-4265-B97C-3C3FCF85ABAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142E5193-B48A-4265-B97C-3C3FCF85ABAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB73984A-F325-4DFA-A28A-7BBD2A72A02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB73984A-F325-4DFA-A28A-7BBD2A72A02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB73984A-F325-4DFA-A28A-7BBD2A72A02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB73984A-F325-4DFA-A28A-7BBD2A72A02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {782963F9-5F35-4473-9AC0-BDA6919AE63B}
+	EndGlobalSection
+EndGlobal
