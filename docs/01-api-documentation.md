@@ -52,4 +52,15 @@ app.UseSwaggerUI(options =>
 });
 ```
 ### Customize your design
-
+In the design folder you will find all files necessary to implement the design
+Add a folder 'wwwroot' in the root of your project
+Move the swagger-ui catalouge and all subfiles into wwwroot.
+Configure application to use static files and inject your custom css
+```C#
+app.UseStaticFiles();
+app.UseSwaggerUI(options =>
+{
+    options.InjectStylesheet("/swagger-ui/custom.css");
+});
+```
+### Change favicon and title in browser tab
