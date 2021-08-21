@@ -12,3 +12,7 @@ It will be over-enginered, but the purpose is to give an insight in how .net web
 | [Session #1](/docs/01-api-documentation.md) | Customize and improve your api documentation |
 | [Session #2](/docs/02-service-layer.md) | Introduce the service layer  |
 | [Session #3](/docs/03-data-access-layer.md) | Introduce data access layer and use of database |
+
+
+### Architecture
+![Architecure](docs/architecture.PNG)
