@@ -124,8 +124,27 @@ public static class DbInstaller
     }
 }
 ```
+### Mapping from entity to domain model
+The service layer need to map entity to domain. Use Mapper class for this purpose.
+```C#
+public static IEnumerable<WeatherModel> ToModel(this IEnumerable<WeatherEntity> entities)
+{
+    return entities.Select(entity => entity.ToModel()).ToList();
+}
+
+public static WeatherModel ToModel(this WeatherEntity entity)
+{
+    return new()
+    {
+        Date = entity.Date,
+        Celcius = entity.Temperature,
+        Summary = entity.Summary,
+    };
+}
+```
 ### Changing service layer
-The service layer needs to inject data access layer and use repository to get data
+The service layer needs to inject data access layer and use repository to get data.
+Use mapper to map from entity to domain
 ```C#
 services.AddDataAccess();
 
