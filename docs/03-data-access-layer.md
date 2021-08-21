@@ -1,4 +1,4 @@
-# Get started
-In this session you will use the default api template in Visual Studio to create a new api.
+# Introduce data access layer and use of database
+In this session we introduce a data access layer and store our weather data in a database (SQL Lite).
 
 ## Starting point
