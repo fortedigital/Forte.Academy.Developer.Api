@@ -11,8 +11,23 @@ We also introduce dependency injection to have loosly copled layers, easy to cha
 - Fill in project name, click Next
 - Click Create
 
+### Create domain model
+The domain model contains weather data and calculate farenheit
+```C#
+public record WeatherModel
+{
+    public DateTime Date { get; set; }
+
+    public int Celcius { get; set; }
+
+    public int Farenheit => 32 + (int)(Celcius / 0.5556);
+
+    public string? Summary { get; set; }
+}
+```
+
 ### Add interface
-In the service layer add an interface and add this contract
+In the service layer add an interface and add this contract. 
 ```C#
 public List<WeatherModel> WeatherForcast(int days);
 ```
