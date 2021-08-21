@@ -3,7 +3,6 @@ In this session you learn to cuztomize and improve your api documentation
 ![customized api](customized-api.PNG)
 
 ### Change the main title and add an description
-
 ```C#
   options.SwaggerDoc("v1", new() 
   { 
@@ -12,7 +11,6 @@ In this session you learn to cuztomize and improve your api documentation
       Description = "Forte Academy building weather api"
   });
 ```
-
 ### Change section title to Weather
 Rename Controller
 
@@ -68,6 +66,11 @@ Set tile as a swagger ui option
 ```C#
 app.UseSwaggerUI(options => options.DocumentTitle = "Weather api");
 ```
-Set favicon by copy the docs folder into wwwroot (name of the folder needs to match routeprefix) 
+Set favicon by copy the docs folder into wwwroot (name of the folder needs to match routeprefix)
+Remember to refresh browser cash to see the changes ([Shift]+[F5])
+
+### Refactor
+- Place all setup of api documentation into it's own class to have a clean seperation in your code
+
 
 Next up - [Customize and improve your api documentation](02-service-layer.md)
