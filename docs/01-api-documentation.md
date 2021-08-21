@@ -73,4 +73,4 @@ Remember to refresh browser cash to see the changes ([Shift]+[F5])
 - Place all setup of api documentation into it's own class to have a clean seperation in your code
 
 
-Next up - [Customize and improve your api documentation](02-service-layer.md)
+Next up - [Introduce service layer](02-service-layer.md)
