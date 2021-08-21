@@ -64,3 +64,10 @@ app.UseSwaggerUI(options =>
 });
 ```
 ### Change favicon and title in browser tab
+Set tile as a swagger ui option
+```C#
+app.UseSwaggerUI(options => options.DocumentTitle = "Weather api");
+```
+Set favicon by copy the docs folder into wwwroot (name of the folder needs to match routeprefix) 
+
+Next up - [Customize and improve your api documentation](02-service-layer.md)
