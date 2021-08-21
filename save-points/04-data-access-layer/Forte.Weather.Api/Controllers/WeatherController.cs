@@ -16,9 +16,10 @@ public class WeatherController : ControllerBase
     /// <summary>
     /// Return weather forecast for the next 5 days
     /// </summary>
-    /// <returns>List with weather forcast</returns>
+    /// <param name="days">Number of days you want weather forcast</param>
+    /// <returns>List with forecast</returns>
     [HttpGet("{days}")]
-    public async Task<IEnumerable<WeatherModel>> Get(int days)
+    public async Task<IEnumerable<WeatherModel>> Get(int days = 5)
     {
         return await _weatherService.WeatherForcast(days);
     }

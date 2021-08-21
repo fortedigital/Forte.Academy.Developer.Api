@@ -16,7 +16,6 @@ namespace Forte.Weather.Services
                 Date = entity.Date,
                 Celcius = entity.Temperature,
                 Summary = entity.Summary,
-                Farenheit = 32 + (int)(entity.Temperature / 0.5556)
             };
         }
     }
