@@ -2,7 +2,7 @@
 Learn how to build an pritty api with .net 6
 
 This workshop is based on the default api template in Visual Studio 2022 and you will learn to build an api with customized documentation and an n-layer architecture.
-It will be over-enginered, but the purpose is to give an insight in how .net web api work, how you can implemente an defined architecture.
+It will be over-enginered, but the purpose is to give an insight in .net web api and building a well architected application.
 
 ![Image of customized open api](docs/weather-api-doc.PNG)
 
