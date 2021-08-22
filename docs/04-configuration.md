@@ -25,6 +25,8 @@ public static void AddOpenApi(this IServiceCollection services, IConfiguration c
 Use title variable instead of hardcoded string when you set title in swagger
 
 ### Configure connection string to your database
+Make the connection to database configurable and avoid dependencies between each layer.
+
 Set your connection string in your appseteting.json
 ```C#
 "ConnectionStrings": {
