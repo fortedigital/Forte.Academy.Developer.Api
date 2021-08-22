@@ -6,9 +6,9 @@ public static class OpenApiInstaller
 {
     public static void AddOpenApi(this IServiceCollection services, IConfiguration configuration)
     {
-        var xmlDocumentation = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlDocumentation);
         var title = configuration.GetSection("OpenApi")["Title"];
+        var xmlDocumentation = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlDocumentation);        
 
         services.AddSwaggerGen(options =>
         {
