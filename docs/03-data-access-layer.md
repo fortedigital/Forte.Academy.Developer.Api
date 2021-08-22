@@ -176,3 +176,4 @@ Remember to update documenation
 ### Refactor
 - Stucture your files into catalouges for easy overview
 
+Next up - [How to get data from a configuration file](04-configuration.md)
