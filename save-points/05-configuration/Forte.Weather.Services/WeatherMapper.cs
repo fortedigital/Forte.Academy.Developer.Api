@@ -1,4 +1,6 @@
 ﻿using Forte.Weather.DataAccess;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Forte.Weather.Services
 {

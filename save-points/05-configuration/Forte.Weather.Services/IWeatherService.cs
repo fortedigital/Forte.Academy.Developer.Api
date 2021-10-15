@@ -1,4 +1,7 @@
-﻿namespace Forte.Weather.Services
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Forte.Weather.Services
 {
     public interface IWeatherService
     {

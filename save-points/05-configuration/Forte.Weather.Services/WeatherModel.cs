@@ -1,4 +1,6 @@
-﻿namespace Forte.Weather.Services
+﻿using System;
+
+namespace Forte.Weather.Services
 {
     public record WeatherModel
     {

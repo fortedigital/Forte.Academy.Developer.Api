@@ -1,4 +1,7 @@
-﻿namespace Forte.Weather.DataAccess
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Forte.Weather.DataAccess
 {
     public interface IWeatherRepository
     {

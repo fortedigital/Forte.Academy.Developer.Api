@@ -1,5 +1,7 @@
 ﻿using Forte.Weather.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Forte.Weather.Api.Controllers;
 [ApiController]
