@@ -4,6 +4,10 @@ on:
   push:
     branches: [ master ]
 
+defaults: 
+  run: 
+    working-directory: save-points/05-configuration/
+
 jobs:
   build:
 
@@ -20,7 +24,6 @@ jobs:
       run: pwd
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: save-points/05-configuration/
     - name: Build
       run: dotnet build --no-restore
     - name: Test
