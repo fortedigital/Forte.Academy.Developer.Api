@@ -16,8 +16,11 @@ jobs:
       with:
         dotnet-version: 6.0.x
         include-prerelease: true
+    - name: where are we
+      run: pwd
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: save-points/05-configuration/
     - name: Build
       run: dotnet build --no-restore
     - name: Test
